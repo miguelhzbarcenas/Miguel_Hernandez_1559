@@ -62,6 +62,7 @@ public class Multiplicacion_Eficiente {
                     System.out.println("¡¡¡ ERROR !!!");
                     System.out.println("Solo se aceptan numeros enteros...\n");
                     contador = 1;
+                    fin = inicio + 1;
                     entrada.nextLine();
                 }
                 if(fin <= inicio){
